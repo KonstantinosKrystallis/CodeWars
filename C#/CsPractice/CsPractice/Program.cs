@@ -10,7 +10,10 @@ namespace CsPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PigLatin.PigIt("Pig latin is cool!"));
+            Console.WriteLine(TimeFormat.GetReadableTime(5));
+            Console.WriteLine(TimeFormat.GetReadableTime(60));
+            Console.WriteLine(TimeFormat.GetReadableTime(86399));
+            Console.WriteLine(TimeFormat.GetReadableTime(359999));
         }
     }
 }
