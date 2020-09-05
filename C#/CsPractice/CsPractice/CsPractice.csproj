@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PigLatin.cs" />
+    <Compile Include="FindOddInt.cs" />
+    <Compile Include="MultiplesOf3Or5.cs" />
     <Compile Include="CountingSheep.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,7 +10,7 @@ namespace CsPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(TwoToOne.Longest("aretheyhere", "yestheyarehere"));
+            Console.WriteLine(PigLatin.PigIt("Pig latin is cool!"));
         }
     }
 }
