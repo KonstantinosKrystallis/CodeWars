@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MovingZerosToTheEnd.cs" />
     <Compile Include="TimeFormat.cs" />
     <Compile Include="PigLatin.cs" />
     <Compile Include="FindOddInt.cs" />
