@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BreakcamelCase.cs" />
+    <Compile Include="MorseCodeDecoder.cs" />
+    <Compile Include="DirReduction.cs" />
     <Compile Include="CryptographyRot13.cs" />
     <Compile Include="WhoLikesIt.cs" />
     <Compile Include="Parentheses.cs" />

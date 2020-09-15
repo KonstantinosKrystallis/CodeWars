@@ -8,10 +8,9 @@ namespace CsPractice
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(CryptographyRot13.Rot13("hello, there!"));
-            //Console.WriteLine('c' + 13);
+        static void Main(string[] args){
+            Console.WriteLine(MorseCodeDecoder.Decode(".... . -.--   .--- ..- -.. ."));
+            //MorseCodeDecoder.Decode(".... . -.--   .--- ..- -.. .");
         }
     }
 }
